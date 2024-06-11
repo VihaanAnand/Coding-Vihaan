@@ -1,2 +1,2 @@
-# Enter-channel-name
-Code used in the [[Enter channel name]](https://www.youtube.com/channel/UCjwDZeU5RAYGD6OCvzqNuYg) YouTube channel.
+# Coding-Maths-Vihaan
+Code used in the [Coding & Maths w/ Vihaan](https://www.youtube.com/channel/UCjwDZeU5RAYGD6OCvzqNuYg) YouTube channel.
