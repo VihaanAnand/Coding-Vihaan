@@ -1,0 +1,103 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\title{Title}
+\author{Author\thanks{Giving thanks to these people.}}
+\date{\today}
+\begin{document}
+    \maketitle
+    \begin{abstract}
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc mattis enim ut tellus elementum. Commando elite at imperdiet dui accumsan sit amet nulla facilisi. Purus semper eget duis at tellus at urna condimentum mattis. Sit amet nisl suscipit adipiscing bibendum est ultricies integer. Non nisi est sit amet facilisis magna etiam tempor. Metus.
+    \end{abstract}
+
+    \tableofcontents
+
+    \section{Section 1}
+    
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc mattis enim ut tellus elementum. Commando elite at imperdiet dui accumsan sit amet nulla facilisi. Purus semper eget duis at tellus at urna condimentum mattis. Sit amet nisl suscipit adipiscing bibendum est ultricies integer. Non nisi est sit amet facilisis magna etiam tempor. Metus. \newline
+
+    \section{Section 2}
+
+    % Comment. This will not be included in the document.
+
+    \subsection{Subsection 1} % Another comment. This creates a subsection under the Section 2.
+
+    \subsubsection{Subsubsection 1}
+
+    2nd paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc mattis enim ut tellus elementum. Commando elite at imperdiet dui accumsan sit amet nulla facilisi. Purus semper eget duis at tellus at urna condimentum mattis. Sit amet nisl suscipit adipiscing bibendum est ultricies integer. Non nisi est sit amet facilisis magna etiam tempor. Metus.
+
+    \section{Bold Italics Underline}
+
+    This is my text. \textbf{This sentence is bolded}. \textit{This sentence is italicised}. \underline{This sentence is underlined}. \newline
+
+    Did you also know you can emphasise things with emph? \emph{Like this}.
+
+    \section{Images}
+
+    I will insert an image of a stickman under this text.
+
+    \begin{figure}
+        \centering
+        \includegraphics{profile}
+        \caption{Caption to the stickman.}
+        \label{fig:stickman}
+    \end{figure}
+
+    Well, it didn't put it under, but it is at figure \ref{fig:stickman}.
+
+    \section{Tables}
+
+    \begin{tabular}{|c|c|c|}
+        \hline
+        R1C1 & R1C2 & R1C3 \\
+        \hline
+        R2C1 & R2C2 & R2C3 \\
+        \hline
+        R3C1 & R3C2 & R3C3 \\ [0pt]
+        \hline
+    \end{tabular}
+
+    \section{Lists}
+
+    \subsection{Unordered / Bullet Lists}
+
+    \begin{itemize}
+        \item Item 1
+        \item Item 2
+        \item Item 3
+    \end{itemize}
+
+    \subsection{Ordered / Numbered Lists}
+
+    \begin{enumerate}
+        \item Item 1
+        \item Item 2
+        \item Item 3
+    \end{enumerate}
+
+    \section{Maths Tutorial}
+
+    You can do maths in 2 ways. Inline is the first one, like this: $1 + 1 = 2$. The second way is display, like this: \[ 1 + 1 = 2 \]. \newline
+
+    Now, let's walk through each type of calculation.
+
+    \begin{itemize}
+        \item Fractions: $\frac{a}{b}$
+        \item Roots: $\sqrt[n]{x}$
+        \item Exponents: $a^b$
+        \item Subscripts: $a_b$
+        \item Greek Letters: $\pi \Sigma \mu \lambda \Delta \Gamma \theta$
+        \item Symbols: $\leftarrow \rightarrow \uparrow \downarrow \infty \triangle \times \div \cdot$
+        \item In/equality: $\neq \leq \geq \simeq \approx \equiv \cong$
+        \item Summation: \[ \sum_{x=1}^{\infty} f(x) \]
+        \item Consecutive products: \[ \prod_{x=1}^{\infty} f(x) \]
+        \item Calculus: \[ \lim_{x\rightarrow\infty} f(x) = 0 \] \[ \int_{a}^{b} x^2 dx \]
+        \item Matrices:
+    \end{itemize}
+
+    \begin{bmatrix}
+        a & b & c\\
+        d & e & f
+    \end{bmatrix}
+\end{document}
