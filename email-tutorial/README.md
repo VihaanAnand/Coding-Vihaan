@@ -1,5 +1,5 @@
 # email-tutorial
-The files in the sending email from Python using smtplib.
+The files in the tutorial about sending email from Python using smtplib.
 ## Files:
 - `gmail.py` - Code to use Gmail
 - `icloud.py` - Code to use iCloud Mail
