@@ -1,5 +1,5 @@
-# email-tutorial
-The files in the sending email from Python using smtplib.
+# artificial-intelligence-machine-learning
+The files in the introduction to AI and ML.
 ## Files:
 - `Artificial Intelligence & Machine Learning.pdf` - The slides I used in the video
 - `knn.py` - Code for k-Nearest-Neighbour Classification
