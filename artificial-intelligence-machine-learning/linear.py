@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 from sklearn.datasets import load_iris
 from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import mean_squared_error, r2_score
 def linear_regression():
        iris = load_iris()
        x = iris.data[:, 0].reshape(-1, 1)

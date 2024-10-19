@@ -2,9 +2,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.datasets import load_iris
 from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import mean_squared_error
 def loss(y_true, y_pred, model):
        _01_loss = np.sum(np.abs(y_true - y_pred) > 0.1)
        lasso_loss = np.sum(np.abs(y_true - y_pred))

@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 from sklearn.datasets import load_iris
+from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.metrics import accuracy_score
 def k_nn_classification(k = 4):
        iris = load_iris()
        x, y = iris.data, iris.target
