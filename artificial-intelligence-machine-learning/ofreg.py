@@ -33,7 +33,7 @@ def overfitting():
         loss(y_test, y_pred_linear)
         print("\nPolynomial (Overfit):")
         loss(y_test, y_pred_poly)
-        print(f"Linear Model Complexity:    {len(model_linear.coef_)} coefficient")
+        print(f"Linear Model Complexity:     {len(model_linear.coef_)} coefficient")
         print(f"Polynomial Model Complexity: {len(model_poly.coef_)} coefficients\n")
         plt.scatter(x_test, y_test, color = "blue", label = "Actual Data")
         plt.plot(x_test, y_pred_linear, color = "green", label = "Linear Model", linewidth = 2)
