@@ -2,7 +2,7 @@
 
 ## Project Status
 
-Project launched and stable. Treat as version `1.0.0`.
+Project launched and stable. Treat as version `1.7.0`.
 
 ## Contribution Guidelines
 
